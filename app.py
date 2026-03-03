@@ -138,7 +138,7 @@ uncertainty_threshold = st.sidebar.slider(
 )
 
 st.subheader("Single Review Analysis")
-text = st.text_area("Paste a review:", height=140)
+text = st.text_area("Paste a review to analyze sentiment:", height=140)
 
 if st.button("Analyze"):
     if not text.strip():
@@ -178,7 +178,7 @@ if st.button("Analyze"):
         st.write("Probability distribution:")
         st.json({cls: float(p) for cls, p in zip(classes, probs[0])})
 
-st.subheader("Batch Analysis (Upload CSV)")
+st.subheader("Batch Analysis (Upload CSV with 'Review' column)")
 upload = st.file_uploader("Upload CSV", type=["csv"])
 
 if upload:
