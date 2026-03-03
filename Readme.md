@@ -59,7 +59,7 @@ Files
 - `requirements.txt` → dependencies
 
 ## How to run locally
-
+```bash
 pip install -r requirements.txt
 python3 train.py
 streamlit run app.py
