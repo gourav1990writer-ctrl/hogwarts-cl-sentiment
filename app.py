@@ -33,7 +33,12 @@ DISCOURSE_MARKERS = [
 POS_CUES = {
     "amazing", "great", "good", "love", "loved", "fun",
     "awesome", "excellent", "beautiful", "perfect",
-    "enjoy", "enjoyed", "fantastic", "incredible", "phenomenal"
+    "enjoy", "enjoyed", "fantastic", "incredible", "phenomenal","immersive", "captivating", "engaging", "addictive",
+    "smooth", "polished", "optimized", "responsive",
+    "stunning", "breathtaking", "gorgeous", "cinematic",
+    "satisfying", "rewarding", "worthwhile", "masterpiece",
+    "innovative", "creative", "groundbreaking", "refreshing",
+    "addicting", "compelling", "brilliant", "outstanding"
 }
 
 NEG_CUES = {
@@ -41,7 +46,12 @@ NEG_CUES = {
     "crash", "crashes", "crashing", "lag",
     "stutter", "stuttering", "unplayable",
     "broken", "worst", "bad", "terrible",
-    "refund", "waste", "disappointing"
+    "refund", "waste", "disappointing", "frustrating", "annoying", "tedious", "grindy",
+    "unoptimized", "poorly", "unstable", "freeze",
+    "freezing", "overpriced", "overrated", "underwhelming",
+    "repetitive", "generic", "clunky", "unresponsive",
+    "lackluster", "mediocre", "forgettable", "disaster",
+    "unfinished", "incomplete", "disconnect", "disconnects"
 }
 
 # Real-world CSV files often contain messy column names.
