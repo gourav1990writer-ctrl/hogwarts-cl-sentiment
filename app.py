@@ -33,7 +33,7 @@ DISCOURSE_MARKERS = [
 POS_CUES = {
     "amazing", "great", "good", "love", "loved", "fun",
     "awesome", "excellent", "beautiful", "perfect",
-    "enjoy", "enjoyed", "fantastic", "incredible"
+    "enjoy", "enjoyed", "fantastic", "incredible", "phenomenal"
 }
 
 NEG_CUES = {
@@ -117,7 +117,7 @@ def confidence_of_pred(pred, prob_row, classes):
     return float(prob_map.get(pred, 0.0))
 
 st.set_page_config(page_title="Hard Negatives Finder", layout="wide")
-st.title("Hogwarts Reviews — Hard Negatives Finder")
+st.title("Game Reviews — Sentiment Analysis with Hard Negatives Detection")
 st.caption("Discourse-aware sentiment classification with uncertainty slicing.")
 
 try:
